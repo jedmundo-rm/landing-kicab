@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140.588" height="139.764" viewBox="0 0 140.588 139.764">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #253aa0;
+      }
+
+      .cls-2 {
+        fill: #1c83bc;
+      }
+
+      .cls-3 {
+        fill: #11a4d4;
+      }
+
+      .cls-4 {
+        fill: #18c8cb;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_2556" data-name="Grupo 2556" transform="translate(-789.911 -7978)">
+    <path id="Trazado_2047" data-name="Trazado 2047" class="cls-1" d="M744.325,74.63l-12.77-11.1L798.586,5.251,730.4-54.032l12.77-11.1L824.125,5.251Z" transform="translate(106.374 8043.134)"/>
+    <path id="Trazado_2048" data-name="Trazado 2048" class="cls-2" d="M744.325,74.63l-12.77-11.1L798.586,5.251,730.4-54.032l12.77-11.1L824.125,5.251Z" transform="translate(92.42 8043.134)"/>
+    <path id="Trazado_2049" data-name="Trazado 2049" class="cls-3" d="M744.325,74.63l-12.77-11.1L798.586,5.251,730.4-54.032l12.77-11.1L824.125,5.251Z" transform="translate(79.286 8043.134)"/>
+    <path id="Trazado_2050" data-name="Trazado 2050" class="cls-4" d="M744.325,74.63l-12.77-11.1L798.586,5.251,730.4-54.032l12.77-11.1L824.125,5.251Z" transform="translate(59.512 8043.134)"/>
+  </g>
+</svg>

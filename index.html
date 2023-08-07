@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carnot</title>
+    <!-- <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/animate.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="./sass/style.css">
+    <link rel="stylesheet" href="carousel.css">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+  
+  
+  </head>
+  
+
+<body>
+    <div id="navigation">
+
+        <a  id="menu" data-bs-toggle="collapse" href="#collapseMenu" role="button" aria-expanded="false" aria-controls="collapseMenu">
+            <img src="./img/menu.svg" width="71px" alt="">
+        </a>
+        <nav id="collapseMenu" class="collapse">
+                <ul id="menu-navegacion" class="menu">
+                    <li>
+                        <a href="">
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index-erge.html">
+                            Enfermedades relacionadas con la secreción ácida gástrica
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index-pecabs.html">
+                            P-CABS: Nueva Clase Terapéutica
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index-kicab.html">
+                            ¿Qué es Ki-CAB?
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">Estudios Clínicos Tegoprazan</a>
+                    </li>
+                    <li>
+                        <a href="">On Demand</a>
+                    </li>
+                    <li>
+                        <a href="">Biblioteca</a>
+                    </li>
+                </ul>
+        </nav>
+    </div>
+
+
+    <header class="home position-relative">
+
+        <?php
+        if ( !is_user_logged_in() ) {
+        ?><!--contenido del If-->
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12 py-4 text-left">
+                    <img src="" alt="" id="carnot">
+                </div>     
+                <div class="col-12 pt-5 logo-blanco">
+                    <img src="./img/logo_carnot_blanco.svg" alt="" id="carnot">
+                </div>
+            </div>
+        </div>
+
+        <!-- <?php           
+        }
+
+        else{
+
+            ?> -->
+            <div class="container">
+                <div class="row">
+                    <div class="d-none col-12 py-4 text-left">
+                        <img src="./img/Ki-CAB_logo.svg" alt="" id="carnot">
+                    </div>      
+                    
+                    <div class="col-12 pt-5 logo-blanco">
+                        <img src="./img/logo_carnot_blanco.svg" alt="" id="carnot">
+                    </div>            
+                </div>
+            </div>
+            <!-- <?php
+                };
+            ?> -->
+
+    
+        <div class="fluid-container px-4 form">
+
+            <div class="row form-wrapper g-lg-5  py-5 py-md-0">
+                
+                    <?php
+                        if ( !is_user_logged_in() ) {
+                    ?><!--contenido del If-->
+    
+                        <!--COLUMNA - TEXTO-->
+                        <div class="col-lg-6 col-xl-3 homebanner py-0 py-lg-5  px-5 px-lg-0  d-flex flex-column align-items-center justify-content-start" >
+                            <div class="d-block ">
+                                <h2 class="uppercase italic">Ha llegado a México una nueva opción terapéutica para tratar<br><span class="yellow">enfermedades relacionadas con la secreción ácida.</span>
+                                </h2>           
+                            </div>
+    
+                            <img class="d-block d-xl-none" src="./img/halo_ps_01.svg" alt="" id="hero-background">
+                            <!-- <video class="d-block d-xl-none" src="./img/videohome.mp4" poster="./img/fondo.webp" id="hero-background" muted autoplay loop alt=""></video> -->
+                        </div>
+    
+                        <!--COLUMNA - IMAGEN-->
+                        <div class="d-none d-xl-flex col-xl-6 p-0 flex-column align-items-center justify-content-center mt-0">
+
+                            <img src="./img/halo_ps_01.svg" alt="" id="hero-background">
+                            <!-- <p>El primer bloqueador de ácido competitivo de K para el tratamiento de las enfermedades relacionadas con el ácido.<sup>1</sup></p> -->
+                            <!-- <video src="./img/videohome.mp4"poster="./img/fondo.webp" id="hero-background" muted autoplay loop alt=""></video> -->
+                        </div>
+    
+                        <!--COLUMNA - REGISTRO--> 
+                        <div class="col-lg-6 col-xl-3 pt-0 pt-lg-5 topform-unlogged">
+                            <h1 class=" mb-3 text-center italic"  style="font-size: 14pt;">¿LE INTERESA ESTA NUEVA<br><span class="yellow">OPCIÓN TERAPÉUTICA?</span>
+                                <br><br><span class="yellow">¡REGÍSTRESE</span> PARA MÁS <span class="light-blue">INFORMACIÓN!</span>
+                            </h1>
+                            <!-- <?php
+                                if(isset($_GET['restricted'])){
+                                    echo "<div class='restricted'> Registrese para ver los contenidos </div>";
+                                }
+                            ?>
+                            <?php
+                                    echo do_shortcode( '[arm_form id="101"]' );
+                            ?> -->
+                        </div>
+    
+                    <!-- <?php           
+                    }
+    
+                    else{
+    
+                        ?> -->
+                        
+                        <!--contenido del Else-->
+    
+                        <div class="col-lg-6 col-xl-3 homebanner py-5  px-5 px-lg-0  d-flex flex-column align-items-center justify-content-start">
+                            <div class="d-block">
+                                <h2 class="uppercase italic">Ha llegado a México una nueva opción terapéutica para tratar<br><span class="yellow">enfermedades relacionadas con la secreción ácida.</span>
+                                </h2>           
+                            </div>
+    
+                            <img class="d-block d-xl-none" src="./img/halo_ps_02.svg" alt="" id="hero-background">
+                            <!-- <video class="d-block d-xl-none" src="./img/videohome.mp4" poster="./img/fondo.webp" id="hero-background" muted autoplay loop alt=""></video> -->
+                        </div>
+    
+                        <!--COLUMNA - IMAGEN-->
+                        <div class="d-none d-xl-flex col-xl-6 p-0 flex-column align-items-center justify-content-start mt-0">
+
+                            <img src="./img/halo_ps_02.svg" alt="" id="hero-background">
+                            <!-- <p>El primer bloqueador de ácido competitivo de K para el tratamiento de las enfermedades relacionadas con el ácido.<sup>1</sup></p> -->
+                            <!-- <video src="./img/videohome.mp4"poster="./img/fondo.webp" id="hero-background" muted autoplay loop alt=""></video> -->
+                        </div>
+    
+                        <!--COLUMNA - TEXTO--> 
+                        <div class="col-lg-6 col-xl-3 p-0 topform-logged">
+    
+                            <div class="container py-5 px-5 px-lg-0 list-bullets">
+                                <div class="row">
+                                    <!--Ico 1-->
+                                    <div class="col-3">
+                                        <img src="./img/ico1.png" alt="">
+                                    </div>
+                                    <div class="col-9">
+                                        <p>Alivio con rapidez a los 30 min a partir de la primera toma<sup>1,2</sup></p>
+                                    </div>
+                                    <!--Ico 2-->
+                                    <div class="col-3">
+                                        <img src="./img/ico2.png" alt="">
+                                    </div>
+                                    <div class="col-9">
+                                        <p>Potencia porque actúa sobre el sitio de potasio en las bombas activas/inactivas elevando el PH>4<sup>2</sup></p>
+                                    </div>
+                                    <!--Ico 3-->
+                                    <div class="col-3">
+                                        <img src="./img/ico3.png" alt="">
+                                    </div>
+                                    <div class="col-9">
+                                        <p>Efecto sostenido por 24 horas evitando la hiperacidez nocturna y sin efecto rebote<sup>1,3,4</sup></p>
+                                    </div>
+                                    <!--Ico 4-->
+                                    <div class="col-3">
+                                        <img src="./img/ico4.png" alt="">
+                                    </div>
+                                    <div class="col-9">
+                                        <p>Se puede tomar a cualquier hora del día, independientemente del consumo de alimentos<sup>5</sup></p>
+                                    </div>
+                                </div>                        
+                            </div>
+                        </div>
+    
+                    <!-- <?php
+                        };
+                    ?> -->
+            </div>
+        </div>
+    
+        <div class="container pb-5">
+            <img class="" style="margin: 0 auto; width: auto; max-width: 100%;" src="./img/proximamente.png" alt="">
+
+            <div class="row cards py-3">
+                <!--Card 1-->
+                <div class="col-12 col-md-4 pt-5">
+                    <a href="#"><img style="margin: 0 auto;" src="./img/card1.png" alt=""></a>
+                </div>
+                <!--Card 2-->
+                <div class="col-12 col-md-4 pt-5">
+                    <a href="#"><img style="margin: 0 auto;" src="./img/card2.png" alt=""></a>
+                </div>
+                <!--Card 3-->
+                <div class="col-12 col-md-4 pt-5">
+                    <a href="/pecabs"><img style="margin: 0 auto;" src="./img/card3.png" alt=""></a>
+                </div>
+                <!--Card 4-->
+                <div class="col-12 col-md-4 pt-5">
+                    <a href="#"><img style="margin: 0 auto;" src="./img/card4.png" alt=""></a>
+                </div>
+                <!--Card 5-->
+                <div class="col-12 col-md-4 pt-5">
+                    <a href="/pecabs"><img style="margin: 0 auto;" src="./img/card5.png" alt=""></a>
+                </div>
+                <!--Card 6-->
+                <div class="col-12 col-md-4 pt-5">
+                    <a href="# "><img style="margin: 0 auto; margin-bottom: 26px;" src="./img/card6.png" alt=""></a>
+                </div>
+
+
+    
+        </div>
+    </header>
+
+    
+    <section class="full-container referencias p-5 d-flex justify-content-center">
+        <div class="row">
+            <div style="font-size: 8pt;">
+            Referencias:</br>
+            1. Información para prescribir amplia. Ki-CAB® tegoprazan tabletas de 50 mg. Laboratorios Carnot.</br>
+            2. Han S, Choi HY, Kim YH, Nam JY, Kim B, Song GS, et al. Randomised clinical trial: safety, tolerability, pharmacokinetics, and pharmacodynamics of single and multiple oral doses of tegoprazan (CJ-12420), a novel potassium-competitive acid blocker, in healthy male subjects. Aliment Pharmacol Ther 2019;50(7):751-9.</br>
+            3. Mermelstein J, Mermelstein AC, Chait MM. Tegoprazan to treat gastroesophageal reflux disease. Drugs Today (Barc) 2020;56(11):715-21.</br>
+            4. Han S, Choi HY, Kim YH, Choi SC, Kim S, Nam JY, et al. Comparison of pharmacodynamics between tegoprazan and dexlansoprazole regarding nocturnal acid breakthrough: a randomized crossover study. Gut Liver 2023;17(1):92-9.</br>
+            5. Yang E, Kim S, Kim B, Kim B, Kim Y, Park SS, et al. Night-time gastric acid suppression by tegoprazan compared to vonoprazan or esomeprazole. Br J Clin Pharmacol 2022;88(7):3288-96.         
+            </div>
+        </div>                
+    </section>
+
+
+    <footer class="pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="ms-4 text-center">
+                        Reg. San. 023M2023 SSA IV<br>
+                        Aviso de Publicidad XXXXXXXX<br>
+                        CARNOT® LABORATORIOS TODOS LOS DERECHOS RESERVADOS. NICOLÁS SAN JUAN 1046, COLONIA DEL VALLE C.P. 03100, CIUDAD DE MÉXICO, MÉXICO.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

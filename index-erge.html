@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./sass/style.css">
+</head>
+
+<body>
+    <div id="navigation">
+
+        <a  id="menu" data-bs-toggle="collapse" href="#collapseMenu" role="button" aria-expanded="false" aria-controls="collapseMenu">
+            <img src="./img/menu.svg" width="71px" alt="">
+        </a>
+        <nav id="collapseMenu" class="collapse">
+            <ul id="menu-navegacion" class="menu">
+                <li>
+                    <a href="index.html">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Enfermedades relacionadas con la secreción ácida gástrica
+                    </a>
+                </li>
+                <li>
+                    <a href="index-pecabs.html">
+                        P-CABS: Nueva Clase Terapéutica
+                    </a>
+                </li>
+                <li>
+                    <a href="index-kicab.html">
+                        ¿Qué es Ki-CAB?
+                    </a>
+                </li>
+                <li>
+                    <a href="">Estudios Clínicos Tegoprazan</a>
+                </li>
+                <li>
+                    <a href="index-ondemand.html">On Demand</a>
+                </li>
+                <li>
+                    <a href="">Biblioteca</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="position-relative interior fondo">
+
+        <!-- <div class="d-block d-md-none bg-mobile">
+        <video src="./img/videohome.mp4" poster="./img/fondo.webp" muted autoplay loop alt=""></video>
+        </div> -->
+
+        <div class="container">
+
+            <div class="col-12 py-4 text-left">
+                <img src="./img/Ki-CAB_logo.svg" alt="" id="carnot">
+            </div>        
+
+            <div class="col-12 pt-5 d-none d-md-block logo-blanco">
+                <img src="./img/logo_carnot_blanco.svg" alt="" id="carnot">
+            </div>      
+
+            <div class="row align-items-start g-lg-5 py-0 py-md-5">
+
+                <div class="col-md-12 col-lg-6">
+                    <h2><span class="yellow text-left italic uppercase">enfermedades relacionadas con la secreción ácida.</span></h2>
+
+                    <div class="d-md-block d-lg-none">
+                        <img src="./img/post-erge/image-header.png" alt="">
+                    </div>
+
+                    <h3 class="italic">La secreción ácida gástrica puede dar lugar a enfermedades en el tracto gastrointestinal como:</h3>
+
+                    <br>
+                    <p>Seleccione un contenido:</p>
+
+                    <div class="buttons-wrapper d-flex">
+                        <div class="selected">
+                            <a href="">ERGE</a>
+                        </div>
+                        <div>
+                            <a href="./index-ulcera.html">Úlcera péptica</a>
+                        </div>
+                    </div>
+
+                    <br>
+                    <br>
+                    <h2 class="italic uppercase">Enfermedad por reflujo gastroesofágico <span class="orange">(ERGE)</span></h2>
+                    <p>La <span class="orange bold">enfermedad por reflujo gastroesofágico (ERGE)</span> se debe al ascenso del contenido gástrico por arriba de la unión gastroesofágica, el cual causa síntomas y/o lesiones esofágicas que llegan a afectar la salud y calidad de vida de los individuos que la presentan.<sup>1</sup></p>
+                </div>
+
+                <div class="col-md-12 col-lg-6 d-none d-lg-block">
+                    <img src="./img/post-erge/image-header.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="row cuadro">
+                <div class="col-12 p-3">
+                    <h2 class="dark-emerald bold  text-center">Reflujo fisiológico vs reflujo patológico</h2>
+                </div>
+
+                <div class="col-12 col-lg-6" style="padding-bottom:20px;">
+                    <div class="container">
+                        <div class="row left">
+                            <div class="col-12 title"><h3>Fisiológico<sup>2</sup></h3></div>
+                            <div class="col-12 content">
+                                <ul>
+                                    <li>Después de las comidas</li>
+                                    <li>≤ 50 episodios cortos/día</li>
+                                    <li>Asintomático</li>
+                                    <li>Sin lesión en la mucosa esofágica</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6" style="padding-bottom:20px;">
+                    <div class="container">
+                        <div class="row right">
+                            <div class="col-12 title"><h3>Patológico<sup>2</sup></h3></div>
+                            <div class="col-12 content">
+                                <ul>
+                                    <li>Diurno y nocturno</li>
+                                    <li>> 50 episodios largos/día</li>
+                                    <li>Sintomático</li>
+                                    <li>Lesiona la mucosa esofágica</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+    </header>
+
+    <section class="interior">
+        <div class="container px-4 py-5 sintomas">
+            <div class="row d-flex flex-column justify-content-center">
+                <!-- SINTOMAS -->
+                <div class="col-md-12">
+                    <h2 class="bold text-center light-blue italic">SÍNTOMAS</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+
+                            <!-- Row 1 -->
+                            <div class="col-6 col-lg-3 my-2 align-items-start text-justify">
+                                <div class="align-items-center flex-column d-flex">
+                                    <img  style="max-width: 237px;" src="./img/post-erge/sin-ico1.svg" alt="" class="mb-2 arts">
+                                    <h3 class="dark-blue bold text-center">Pirosis<sup>2</sup></h3>
+                                </div>
+                            </div>
+                            <!-- Row 2 -->
+                            <div class="col-6 col-lg-3 my-2 align-items-start text-justify">
+                                <div class="align-items-center flex-column d-flex">
+                                    <img  style="max-width: 237px;" src="./img/post-erge/sin-ico2.svg" alt="" class="mb-2 arts">
+                                    <h3 class="dark-blue bold text-center">Regurgitación<sup>2</sup></h3>
+                                </div>
+                            </div>
+                            <!-- Row 3 -->
+                            <div class="col-6 col-lg-3 my-2 align-items-start text-justify">
+                                <div class="align-items-center flex-column d-flex">
+                                    <img  style="max-width: 237px;" src="./img/post-erge/sin-ico3.svg" alt="" class="mb-2 arts">
+                                    <h3 class="dark-blue bold text-center">Disfagia<sup>2</sup></h3>
+                                </div>
+                            </div>
+                            <!-- Row 4 -->
+                            <div class="col-6 col-lg-3 my-2 align-items-start text-justify">
+                                <div class="align-items-center flex-column d-flex">
+                                    <img  style="max-width: 237px;" src="./img/post-erge/sin-ico4.svg" alt="" class="mb-2 arts">
+                                    <h3 class="dark-blue bold text-center">Hemorragia gastrointestinal<sup>2</sup></h3>
+                                </div>
+                            </div>                               
+        
+                     
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container px-4">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-3 d-flex justify-content-center mb-5 order-2 order-md-1">
+                    <img style="max-width: 330px;"src="./img/post-erge/gastro-lines.png" alt="" class="mb-2 arts">
+                </div>
+                <div class="col-md-9 text-justify order-1 order-md-2">
+                    <h2 class="bold light-blue italic">FISIOPATOLOGÍA</h2>
+                    <p class="dark-blue">Relajaciones transitorias del esfínter esofágico inferior (RTEEI), aclaramiento esofágico, alteraciones en la barrera antirreflujo, vaciamiento gástrico retrasado y el reflujo duodeno-gástrico.<sup>1</sup></p>
+                        
+                    <p class="dark-blue">Manifestaciones extraesofágicas: daño directo del ácido sobre la mucosa faríngea, broncoaspiración, distensión del esófago con un reflejo vaso-vagal que genera broncoespasmo y sintomatología asociada.<sup>1</sup></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container px-4 py-5">
+            <div class="row">
+
+                <!-- FACTORES DE RIESGO -->
+                <div class="col-md-12 text-center mb-4">
+                    <h2 class="bold text-center light-blue italic"><span class="blue-green">FACTORES DE RIESGO</span></h2>
+                    <p class="text-center">Los más importantes son:<sup>1</sup>         </p>
+                </div>
+                
+                <!-- ICONOS -->
+                <div class="col-12 col-lg-4  p-0 d-flex justify-content-between align-items-start">
+                    <div class="icon col-6 col-lg-6 d-flex justify-content-center align-items-center flex-column">
+                        <img style="width: auto;" src="./img/post-erge/fac-ico1.png" alt="" class="mb-2 arts">
+                        <br>
+                        <p class="bold text-center dark-blue">Herencia<sup>1</sup></p>
+                    </div>
+                    <div class="icon col-6 col-lg-6 d-flex justify-content-center align-items-center flex-column">
+                        <img style="width: auto;" src="./img/post-erge/fac-ico2.png" alt="" class="mb-2 arts">
+                        <br>
+                        <p class="bold text-center dark-blue">Sobrepeso<sup>1</sup></p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4  p-0 d-flex justify-content-between align-items-start">
+                    <div class="icon col-6 col-lg-6 d-flex justify-content-center align-items-center flex-column">
+                        <img style="width: auto;" src="./img/post-erge/fac-ico3.png" alt="" class="mb-2 arts">
+                        <br>
+                        <p class="bold text-center dark-blue">Obesidad central<sup>1</sup></p>
+                    </div>
+                    <div class="icon col-6 col-lg-6 d-flex justify-content-center align-items-center flex-column">
+                        <img style="width: auto;" src="./img/post-erge/fac-ico4.png" alt="" class="mb-2 arts">
+                        <br>
+                        <p class="bold text-center dark-blue">Tabaquismo<sup>1</sup></p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4  p-0 d-flex justify-content-between align-items-start">
+                    <div class="icon col-6 col-md-6 d-flex justify-content-center align-items-center flex-column">
+                        <img style="width: auto;" src="./img/post-erge/fac-ico5.png" alt="" class="mb-2 arts">
+                        <br>
+                        <p class="bold text-center dark-blue">Alcohol<sup>1</sup></p>
+                    </div>
+                    <div class="icon col-6 col-md-6 d-flex justify-content-center align-items-center flex-column">
+                        <img style="width: auto;" src="./img/post-erge/fac-ico6.png" alt="" class="mb-2 arts">
+                        <br>
+                        <p class="bold text-center dark-blue">Embarazo<sup>1</sup></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <main class="interior">
+        <section class="container clasificacion px-4 py-5">
+            <div class="row ">
+
+                <!-- COMO SE CLASIFICA -->
+                <div class="col-12 p-3">
+                    <h2 class="yellow bold text-center italic">CLASIFICACIÓN</h2>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 col-lg-4" style="padding: 0em;">
+                            <div class="container">
+                                <div class="row">
+                                    <!-- <div class="cuadro" > -->
+                                        <img src="./img/post-erge/Cuadro-Group-1.png" alt="">
+                                        <!-- <p>Se define por la presencia de síntomas de la enfermedad y ausencia de lesiones esofágicas en la <b>endoscopía</b>.<sup>2</sup></p> -->
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4" style="padding: 0em;">
+                            <div class="container">
+                                <div class="row">
+                                    <!-- <div class="cuadro" > -->
+                                        <img src="./img/post-erge/Cuadro-Group-2.png" alt="">
+                                        <!-- <p>Se define por la presencia de síntomas de la enfermedad y ausencia de lesiones esofágicas en la <b>endoscopía</b>.<sup>2</sup></p> -->
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4" style="padding: 0em;">
+                            <div class="container">
+                                <div class="row">
+                                    <!-- <div class="cuadro" > -->
+                                        <img src="./img/post-erge/Cuadro-Group-3.png" alt="">
+                                        <!-- <p>Se define por la presencia de síntomas de la enfermedad y ausencia de lesiones esofágicas en la <b>endoscopía</b>.<sup>2</sup></p> -->
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+                        </div>
+  
+                    </div>
+                </div>
+
+            </div>      
+        </section>
+
+        <!--DIAGNOSTICO (ACCORDEON)-->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="yellow bold italic">DIAGNÓSTICO</h3>
+                </div>
+
+                <div class="col-12 col-lg-7 diagnostico">
+                    <p class="button uppercase"  data-bs-toggle="collapse" href="#collapseSintomas" role="button" aria-expanded="false" aria-controls="collapseSintomas"><b>Diagnóstico presuntivo</b><sup>1</sup><span class="flechabajo">&#x2b;</span></p>
+            
+                    <ul id="collapseSintomas" class="collapse">
+                        <li>Pirosis y regurgitaciones ≥ 2 veces por semana</li>
+                        <li>Paciente menor a 50 años sin datos de alarma</li>
+                        <li>Se recomienda una prueba terapéutica con <b>inhibidores de la bomba de protones (IBP)</b><sup>1</sup></li>
+                    </ul>
+        
+                    <br>
+
+                    <p class="bold button uppercase" data-bs-toggle="collapse" href="#collapsePrueba" role="button" aria-expanded="false" aria-controls="collapseSintomas">Prueba terapéutica <span class="flechabajo">&#x2b;</span></p>
+                    <p  id="collapsePrueba" class="collapse">Consiste en usar dosis doble de IBP por un mínimo de 2 semanas. Se considera positiva cuando la mejoría de los síntomas es ≥ 50%.<sup>1</sup></p>
+                    
+                    <br>
+
+                    <p class="bold button uppercase" data-bs-toggle="collapse" href="#collapseEndoscopia" role="button" aria-expanded="false" aria-controls="collapseSintomas">Endoscopía y biopsias<span class="flechabajo">&#x2b;</span></p>
+
+                    <div  id="collapseEndoscopia" class="collapse">
+                        <p>La endoscopía es útil para la detección de las complicaciones de la ERGE. Por lo tanto, está indicada en:<sup>1</sup></p>
+                        <ul>
+                            <li>ERGE de > 5 años de evolución o ERGE refractaria</li>
+                            <li>Pacientes con signos de alarma</li>
+                            <li>Pacientes con factores de riesgo para esófago de Barret</li>
+                            <li>Sospecha de esofagitis eosinofílica</li>
+                        </ul>
+                        <p>La toma de biopsias está indicada en los casos con lesiones indicativas de esófago de Barret y sospecha de esofagitis eosinofílica.<sup>1</sup></p>
+                    </div>
+
+                    <br>
+
+                    <p class="bold button uppercase" data-bs-toggle="collapse" href="#collapseManometria" role="button" aria-expanded="false" aria-controls="collapseSintomas">pH-metría<span class="flechabajo">&#x2b;</span></p>
+                    <div  id="collapseManometria" class="collapse">
+                        <p>Indicada en pacientes con:<sup>1</sup></p>
+                        <ul>
+                            <li>Síntomas típicos o extraesofágicos de ERGE, con endoscopia negativa que no responden al tratamiento con IBP<sup>1</sup></li>
+                            <li>Candidatos a cirugía antirreflujo sin evidencia de lesiones de la mucosa esofágica en la endoscopía<sup>1</sup></li>
+                        </ul>
+                    </div>
+
+                    <br>
+                    
+                    <p class="bold button uppercase" data-bs-toggle="collapse" href="#collapseTratamiento" role="button" aria-expanded="false" aria-controls="collapseSintomas">Manometría esofágica<span class="flechabajo">&#x2b;</span></p>
+                    <p  id="collapseTratamiento" class="collapse">Debe realizarse rutinariamente en la evaluación preoperatoria de los pacientes candidatos a cirugía antirreflujo para descartar alteraciones graves de la motilidad esofágica.<sup>1</sup></p>
+                </div>
+
+                <div class="col-12 col-lg-5">
+                    <img style="max-width:inherit;" src="./img/post-erge/esofago.png" alt="" class="mb-2 arts">
+                </div>     
+
+                <!--TRATAMIENTO-->
+                <div class="col-12 mt-5">
+                    <h3 class="yellow bold italic">TRATAMIENTO</h3>
+                    <p>Los medicamentos utilizados en el manejo de la ERGE son: antiácidos, alginatos, sucralfato, antagonistas de los receptores de histamina H2 (ARH2), procinéticos, IBP e inhibidores de las RTEII.<sup>1</sup></p>
+                </div>     
+            </div>
+        </section>
+    </main>
+
+    <section class="full-container referencias p-5 d-flex justify-content-center">
+        <div class="row">
+            <div style="font-size: 8pt;">
+            Referencias:</br>
+                1. Huerta-Iga F, Bielsa-Fernández M V., Remes-Troche JM, Valdovinos-Díaz MA, Tamayo-de la Cuesta JL. Diagnóstico y tratamiento de la enfermedad por reflujo gastroesofágico: recomendaciones de la Asociación Mexicana de Gastroenterología. Rev Gastroenterol Mex. 2016;814:208–22.</br>
+                2. Villalobos-Perez J de J, Olivera-Martinez MA, Valdovinos-Diaz MA. Gastroenterologia. 2006.</br>
+                3. Ramos González R, Álcazar González N, Flores Cardoza A, Alfaro de León A, Ríos Mejía E. Diagnóstico y tratamiento de Úlcera Péptica aguda complicada en el adulto. Catálogo Maest guías práctica clínica. 2015;1054:229–31.</br>
+                4. Kempenich JW, Sirinek KR. Acid Peptic Disease. Surg Clin North Am [Internet]. 2018;98(5):933–44. Available from: https://doi.org/10.1016/j.suc.2018.06.003               
+            </div>
+        </div>                
+    </section>
+
+
+    <footer class="pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="ms-4 text-center">
+                        Reg. San. 023M2023 SSA IV<br>
+                        Aviso de Publicidad XXXXXXXX<br>
+                        CARNOT® LABORATORIOS TODOS LOS DERECHOS RESERVADOS. NICOLÁS SAN JUAN 1046, COLONIA DEL VALLE C.P. 03100, CIUDAD DE MÉXICO, MÉXICO.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

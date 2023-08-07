@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="193.425" height="87.672" viewBox="0 0 193.425 87.672">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #c8bf00;
+      }
+
+      .cls-4 {
+        fill: #e1eede;
+      }
+
+      .cls-5 {
+        fill: #1c1c1c;
+      }
+
+      .cls-6 {
+        fill: #ecf5ef;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_7" data-name="Rectángulo 7" class="cls-1" width="193.424" height="87.672"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_20" data-name="Grupo 20" transform="translate(0 0)">
+    <g id="Grupo_10" data-name="Grupo 10" class="cls-2" transform="translate(0 0)">
+      <path id="Trazado_607" data-name="Trazado 607" class="cls-3" d="M0,44.483c-.387-.647,30.741-48.406,106.314-38.9,0,0,52.87,3.172,71.107,38.9,0,0-13.145,36.847-86.222,39.452,0,0-65.774,2.978-91.2-39.452" transform="translate(0 3.692)"/>
+      <path id="Trazado_608" data-name="Trazado 608" class="cls-4" d="M100.668,42.464A36.151,36.151,0,1,1,64.516,6.312a36.152,36.152,0,0,1,36.152,36.152" transform="translate(24.196 5.383)"/>
+      <path id="Trazado_609" data-name="Trazado 609" class="cls-5" d="M67.7,32.072A13.577,13.577,0,1,1,54.125,18.5,13.576,13.576,0,0,1,67.7,32.072" transform="translate(34.587 15.775)"/>
+      <path id="Trazado_610" data-name="Trazado 610" class="cls-3" d="M114.846,37.589S104.609,5.736,79.093,6.206c0,0,31.484-7.249,35.753,31.382" transform="translate(67.466 4.833)"/>
+      <path id="Trazado_611" data-name="Trazado 611" class="cls-3" d="M3.813,37.515s11.8,20.049,29.036,15.843c0,0-20.255,9.715-29.036-15.843" transform="translate(3.252 31.999)"/>
+      <path id="Trazado_612" data-name="Trazado 612" class="cls-3" d="M126.376,42.595S111.895-.043,78.6.663c0,0,36.83-9.322,47.772,41.931" transform="translate(67.049 -0.001)"/>
+      <path id="Trazado_613" data-name="Trazado 613" class="cls-6" d="M79.935,19.693a2.6,2.6,0,1,1-2.6-2.6,2.6,2.6,0,0,1,2.6,2.6" transform="translate(63.746 14.578)"/>
+      <path id="Trazado_614" data-name="Trazado 614" class="cls-6" d="M79.935,28.126a2.6,2.6,0,1,1-2.6-2.6,2.6,2.6,0,0,1,2.6,2.6" transform="translate(63.746 21.771)"/>
+      <path id="Trazado_615" data-name="Trazado 615" class="cls-6" d="M89.383,28.126a2.6,2.6,0,1,1-2.6-2.6,2.6,2.6,0,0,1,2.6,2.6" transform="translate(71.805 21.771)"/>
+    </g>
+  </g>
+</svg>

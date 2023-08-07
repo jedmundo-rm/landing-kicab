@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./sass/style.css">
+    <!-- Para el Slider -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="navigation">
+
+        <a  id="menu" data-bs-toggle="collapse" href="#collapseMenu" role="button" aria-expanded="false" aria-controls="collapseMenu">
+            <img src="./img/menu.svg" width="71px" alt="">
+        </a>
+        <nav id="collapseMenu" class="collapse">
+                <ul id="menu-navegacion" class="menu">
+                    <li>
+                        <a href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index-erge.html">
+                            Enfermedades relacionadas con la secreción ácida gástrica
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            P-CABS: Nueva Clase Terapéutica
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index-kicab.html">
+                            ¿Qué es Ki-CAB?
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">Estudios Clínicos Tegoprazan</a>
+                    </li>
+                    <li>
+                        <a href="index-ondemand.html">On Demand</a>
+                    </li>
+                    <li>
+                        <a href="">Biblioteca</a>
+                    </li>
+                </ul>
+        </nav>
+    </div>
+
+    <header class="position-relative interior fondo">
+
+        <div class="container pecabs-header">
+
+            <div class="col-12 py-4">
+                <img src="./img/Ki-CAB_logo.svg" alt="" id="carnot">
+            </div>       
+            
+            <div class="col-12 pt-5  d-none d-md-block  logo-blanco">
+                <img src="./img/logo_carnot_blanco.svg" alt="" id="carnot">
+            </div>     
+
+            <div class="row align-items-center g-lg-5 py-0 py-md-5">
+
+              <!--******* SLIDER ********-->
+                <!-- <div class="container"> -->
+                <!-- carrusel -->
+                <div class="mainCarrusel ">
+                  <div id="carousel-slider" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                    <h3 class="text-center italic uppercase"><span class="yellow">Perspectiva histórica</span> de los tratamientos:</h3>
+                    <h5 class="text-center italic uppercase"><span class="emerald">Treinta años</span> de supresión ácida con <span class="emerald">antagonistas de H2 e IBP<span style="text-transform: lowercase;">s</span></span>.</h5>
+    
+    
+                    <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                      <div class="carousel-item active">
+                        <div class="row">
+                          <div class="col-lg-12 d-flex flex-column align-items-center">
+
+                            <img src="./img/post-pecabs/2020s.png" alt="" class="img-fluid" alt="Responsive image">
+    
+                            <h2 class="parrafo text-center">
+                                <span class="emerald bold uppercase italic" style="font-size: 34pt;">P-CABs,</span> <span class="yellow uppercase">Bloqueadores competitivos de Potasio</span> para enfermedades relacionadas al ácido en México
+                            </h2>
+
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!-- Slide 2 -->
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-lg-12 d-flex flex-column align-items-center">
+    
+                            <img src="./img/post-pecabs/2010s.png" alt="" class="img-fluid" alt="Responsive image">
+    
+                            <p class="parrafo pt-5 px-5 text-center">
+                                Una vez que se disiparon las preocupaciones de la supresión de ácido a largo plazo, el uso de los IBPs se generalizó y continúa creciendo globalmente. Sin embargo, las tasas de prescripción no parecen ser proporcionales a la prevalencia de enfermedades relacionadas al ácido o apegadas a las guías de prescripción, por lo cual dan lugar a un aumento en los costos y una prescripción inapropiada.<sup>1</sup> 
+                                <br><br>
+                                Esta conducta prescriptiva es un tema de preocupación, especialmente en la población geriátrica. Estos pacientes están frecuentemente afectados por múltiples comorbilidades y tomar múltiples medicamentos, los pone en riesgo de efectos adversos relacionados con la ingesta de IBPs a largo plazo e interacciones medicamentosas.<sup>1</sup>
+                            </p>
+
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!-- Slide 3 -->
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-lg-12 d-flex flex-column align-items-center">
+    
+                            <img src="./img/post-pecabs/2000s.png" alt="" class="img-fluid" alt="Responsive image">
+    
+                            <p class="parrafo text-center">
+                            El uso generalizado de los IBPs en enfermedades relacionadas al ácido, incluyendo la erradicación de H. pylori, reveló que las diferencias individuales en polimorfismos pueden tener un impacto significativo en la actividad antisecretora y la eficacia terapéutica de los IBPs de primera generación (omeprazol, lansoprazol y pantoprazol). El desarrollo de IBPs de segunda generación (rabeprazol y esomeprazol) mostró que tanto la farmacocinética como la farmacodinamia de estos componentes eran menos dependientes del genotipo.<sup>1</sup>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!-- Slide 4 -->
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-lg-12 d-flex flex-column align-items-center">
+    
+                            <img src="./img/post-pecabs/1990s.png" alt="" class="img-fluid" alt="Responsive image">
+    
+                            <p class="parrafo text-center">
+                            En los 90s, el primer IBP, omeprazol, fue introducido al mercado y alcanzó una mejoría significativa en el tratamiento de ERGE.<sup>1</sup>
+                            <br><br>
+                            Tanto los ARH2 como los IBPs curan las enfermedades agudas, pero ni el tratamiento de mantenimiento ni el intermitente previenen totalmente la recurrencia de úlcera péptica.<sup>1</sup></p>
+
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!-- Slide 5 -->
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-lg-12 d-flex flex-column align-items-center">
+    
+                            <img src="./img/post-pecabs/1980s.png" alt="" class="img-fluid" alt="Responsive image">
+    
+                            <p class="parrafo text-center">
+                                La introducción de cimetidina a la práctica clínica al final de los 70s revolucionó el manejo de las enfermedades relacionadas al ácido, aboliendo la cirugía electiva para la úlcera péptica. Sin embargo, sus recaídas y el tratamiento subóptimo para el ERGE permanecieron como necesidades clínicas sin cubrir.<sup>1</sup>
+                            </p>
+
+                          </div>
+                        </div>
+                      </div>
+
+
+                        <ol class="carousel-indicators d-flex justify-content-around">
+        
+                            <li data-target="#carousel-slider" data-slide-to="0" class="active"><p>2020s</p></li>
+                            <li data-target="#carousel-slider" data-slide-to="1" class=""><p>2010s</p></li>
+                            <li data-target="#carousel-slider" data-slide-to="2" class=""><p>2000s</p></li>
+                            <li data-target="#carousel-slider" data-slide-to="3" class=""><p>1990s</p></li>
+                            <li data-target="#carousel-slider" data-slide-to="4" class=""><p>1980s</p></li>
+                        </ol>
+    
+                    </div>
+
+                    <div class="mt-5" >
+                        <p class="text-center" style="font-size: 12pt;">Haga clic en las fechas para ver más.</p>
+                    </div>
+
+                    <!-- <a class="carousel-control-prev flechasCarrusel" href="#carousel" role="button" data-slide="prev">
+                              <img src="./assets/img/atras.png" class="img-fluid atras" alt="Responsive image">
+                              <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next flechasCarrusel" href="#carousel" role="button" data-slide="next">
+                              <img src="./assets/img/adelante.png" class="img-fluid adelante" alt="Responsive image">
+                              <span class="sr-only">Next</span>
+                          </a> -->
+                  </div>
+                </div>
+                <!-- fin carrusel -->
+
+            </div>
+        </div>
+    </header>
+
+
+    <section class="interior">
+        <div class="container px-4 py-5">
+            <div class="row d-flex flex-column justify-content-center">
+                <!-- Inhibidores de la bomba de protones -->
+                <div class="col-12 text-center">
+                    <h2 class="bold light-blue text-center uppercase italic">Inhibidores de la bomba de protones</h2>
+                </div>
+                <div class="col-12 justify-content-center d-flex">
+                    <p class="dark-blue text-center">Los inhibidores de bomba de protones (IBPs) son ampliamente utilizados para las enfermedades relacionadas al ácido.<sup>2</sup> Inhiben la secreción de ácido a través de la unión covalente de la H+/K+- ATPasa en la célula gástrica parietal.<sup>3</sup> Sus efectos terapéuticos son considerados satisfactorios, aunque tienen algunas desventajas a tomar en cuenta:<sup>2</sup></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container sintomas px-4 py-5">
+
+            <!-- Necesidades no cubiertas de los IBPs -->
+
+            <div class="row d-flex align-items-end justify-content-center">
+                    <div class="col-12">
+                        <div class="text-center">
+                            <h2 class="bold light-blue text-center italic">LAS NECESIDADES NO CUBIERTAS DE LOS IBPs SON:</h2>                 
+                        </div>
+                        <div class="py-4 px-0 px-lg-5 text-justify needs-wrapper">
+                            <!--Needs 1-->
+                            <div class="col-12 my-3 row d-flex align-items-center">
+                                  <div class="col-lg-2"></div>
+                                <div class="col-4 col-lg-1">
+                                    <img style="width: auto;" src="./img/post-pecabs/ico1.png" alt="" class="mb-2 arts">
+                                </div>
+                                <div class="col-8 col-lg-7">
+                                    <p><span class="bold dark-blue">Son lábiles al ácido gástrico.<sup>3</sup></p>
+                                </div>          
+                                <div class="col-lg-2"></div>                      
+                            </div>
+                            <!--Needs 2-->
+                            <div class="col-12 my-3 row d-flex align-items-center">
+                                  <div class="col-lg-2"></div>
+                                <div class="col-4 col-lg-1">
+                                    <img style="width: auto;" src="./img/post-pecabs/ico2.png" alt="" class="mb-2 arts">
+                                </div>
+                                <div class="col-8 col-lg-7">
+                                <p><span class="bold dark-blue">Tienen un inicio de acción lento, entre 3 a 5 días en alcanzar efectos terapéuticos.<sup>3</sup></p>
+                                </div>        
+                                <div class="col-lg-2"></div>                        
+                            </div>
+
+                            <!--Needs 3-->
+                            <div class="col-12 my-3 row d-flex align-items-center">
+                                  <div class="col-lg-2"></div>
+                                <div class="col-4 col-lg-1">
+                                    <img style="width: auto;" src="./img/post-pecabs/ico3.png" alt="" class="mb-2 arts">
+                                </div>
+                                <div class="col-8 col-lg-7">
+                                    <p class="bold dark-blue">No logran suprimir la secreción ácida nocturna debido a su corta vida media.<sup>3</sup></p>
+                                </div>             
+                                <div class="col-lg-2"></div>                   
+                            </div>
+
+                            <!--Needs 4-->
+                            <div class="col-12 my-3 row d-flex align-items-center">
+                                  <div class="col-lg-2"></div>
+                                <div class="col-4 col-lg-1">
+                                    <img style="width: auto;" src="./img/post-pecabs/ico4.png" alt="" class="mb-2 arts">
+                                </div>
+                                <div class="col-8 col-lg-7">
+                                    <p class="bold dark-blue">Dependen de la ingesta de alimentos ya que trabajan en bombas activas.<sup>2</sup></p>
+                                </div>     
+                                <div class="col-lg-2"></div>                           
+                            </div>
+
+                            <!--Needs 5-->
+                            <div class="col-12 my-3 row d-flex align-items-center">
+                                <div class="col-lg-2"></div>
+                                <div class="col-4 col-lg-1">
+                                    <img style="width: auto;" src="./img/post-pecabs/ico5.png" alt="" class="mb-2 arts">
+                                </div>
+                                <div class="col-8 col-lg-7">
+                                    <p class="bold dark-blue">En regímenes que requieren más de una toma al día, puede afectar el apego al tratamiento.<sup>4</sup></p>
+                                </div>      
+                                <div class="col-lg-2"></div>                          
+                            </div>
+                        </div>
+                </div>                  
+            </div>
+
+        </div>
+
+        <div class="px-4 py-5 d-none">
+            <div id="table" class="container">
+                <div class="row">
+                    <!-- Header -->
+                    <div class="col-12 py-5 px-5 header text-center">
+                        <img src="./img/post-pecabs/icon.svg" alt="" srcset="">
+                        <p>Sus efectos terapéuticos son considerados satisfactorios, aunque tienen algunas <b>desventajas</b> que deben ser tomadas en cuenta: <sup>2</sup></p>
+                    </div>
+
+                        <!-- Column Left -->
+                    <div class="col-6 col-md-6 col-lg-3 column-left">
+                        <div id="text1" class="row px-4 d-flex align-items-center">
+                            <div class="col-2 p-0"><img src="./img/post-pecabs/ico1.svg" alt="" srcset=""></div>
+                            <div class="col-10"><p>Vida media</p></div>                            
+                        </div>
+                        <div id="text2" class="row px-4 d-flex align-items-center">
+                            <div class="col-2 p-0"><img src="./img/post-pecabs/ico2.svg" alt="" srcset=""></div>
+                            <div class="col-10"><p>Consumo de alimentos</p></div>
+                        </div>
+                        <div id="text3" class="row px-4 d-flex align-items-center">
+                            <div class="col-2 p-0"><img src="./img/post-pecabs/ico3.svg" alt="" srcset=""></div>
+                            <div class="col-10"><p>Presentación del farmaco</p></div>
+                        </div>
+                        <div id="text4" class="row px-4 d-flex align-items-center">
+                            <div class="col-2 p-0"><img src="./img/post-pecabs/ico4.svg" alt="" srcset=""></div>
+                            <div class="col-10"><p>Poliformismos</p></div>
+                        </div>
+                        <div id="text5" class="row px-4 d-flex align-items-center">
+                            <div class="col-2 p-0"><img src="./img/post-pecabs/ico5.svg" alt="" srcset=""></div>
+                            <div class="col-10"><p>Fallas en trastornos relacionados con la secreción de ácido</p></div>
+                        </div>
+                        <div id="text6" class="row px-4 d-flex align-items-center">
+                            <div class="col-2 p-0"><img src="./img/post-pecabs/ico6.svg" alt="" srcset=""></div>
+                            <div class="col-10"><p>Fallas en reflujo nocturno</p></div>
+                        </div>
+                        <div id="text7" class="row px-4 d-flex align-items-center">
+                            <div class="col-2 p-0"><img src="./img/post-pecabs/ico7.svg" alt="" srcset=""></div>
+                            <div class="col-10"><p>Cambios en la microbiota</p></div>
+                        </div>
+                    </div>
+
+                    <!-- Column Right -->
+                    <div class="col-6 col-md-6 col-lg-9 column-right">
+                        <p class="info">Text to Change</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <main class="interior">
+        <section class="container px-4 py-5">
+            <div class="row">
+
+                <!-- Los bloqueadores de ácido competitivos de potasio (P-CABs)  -->
+
+                <div class="col-12 col-md-6 mx-auto text-center d-flex align-items-center">
+                    <img style="max-width: 441px;" src="./img/post-pecabs/bloq0.png" alt="" class="mb-2 arts">
+                </div>
+                <div class="col-12 col-md-6 mx-auto text-center">
+                    <img style="max-width: 465px;" src="./img/post-pecabs/bloq1.png" alt="" class="mb-2 arts">
+                </div>
+
+
+                <div class="col-12 mx-auto  text-center">
+                    <p class="text-center"><span class="bold yellow">Los bloqueadores de ácido competitivos de potasio</span> <span class="bold emerald">(P-CABs)</span> representan una nueva clase terapéutica que ha probado un mejor efecto comparado con los IBPs, ya que inhiben el ácido gástrico de forma rápida, efectiva y reversible.<sup>5</sup></p>
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex flex-column align-items-center text-justify">
+                        <img style="max-width: 500px;" src="./img/post-pecabs/bloq2.png" alt="" class="mt-4 arts">
+                        <p>Actúan <b>uniéndose iónicamente a la H+/K+-ATPasa</b> después de la protonación. Su gran tamaño previene el acceso de los cationes de K+ a su sitio de unión, bloqueando la activación de la H+/K+-ATPasa por potasio (K+).<sup>5</sup></p>
+                </div>
+                <div class="col-12 col-lg-6 d-flex flex-column align-items-center text-justify">
+                        <img style="max-width: 500px;" src="./img/post-pecabs/bloq3.png" alt="" class="mt-4 arts">
+                        <p>Pueden unirse a bombas activas e inactivas, facilitando la rápida elevación del pH intragástrico con un efecto sostenido en el bloqueo del ácido.<sup>6</sup></p>                        
+                </div>            
+            </div>
+        </section>
+
+
+    </main>
+
+    <section class="interior d-none">
+        <div class="container px-4 py-5">
+            <div class="row mb-5 d-flex align-items-center">
+                <div class="col-10 col-lg-4 d-flex justify-content-center">
+                    <img style="width:100%; max-width: 400px;" src="./img/logo2.svg" alt="" class="mt-4 arts">                   
+                </div> 
+                <div class="col-2 col-lg-1 d-flex justify-content-center">
+                    <img style="width:100%; max-width: 400px;" src="./img/post-pecabs/flecha.svg" alt="" class="mt-4 arts">                   
+                </div> 
+                <div class="col-12 col-lg-7 mt-5 mt-lg-0  text-justify">
+                    <p  class="bold" style="font-size: 14pt;">Es un <span class="blue">P-CAB</span> que inhibe de forma potente y altamente selectiva a la H+/K+ ATPasa. Tegoprazan alcanza una concentración sérica máxima 0.5-2.5h después de una sola dosis, lo cual es equivalente a aquella alcanzada después de 7 días de tratamiento con un IBP.<sup>6</sup></p>
+                </div>                
+            </div>
+
+            <div class="row  text-justify">
+                <div class="cuadro1-wrapper row  py-0 py-lg-4  my-0 my-lg-2 ">
+                        <div class="col-12 col-md-12  col-lg-6 my-3 my-lg-2 cuadro cuadro-1">
+                            <p class="px-5">Tegoprazan es un P-CAB que <b>inhibe potente y selectivamente a la H+/K+ ATPasa</b>.<sup>6</sup></p>
+                            <p class="px-5">Alcanza <b>concentraciones máximas 0.5-2.5h tras la primera dosis</b>, equivalente a las concentraciones alcanzadas después de 7 días de tratamiento con un IBP.<sup>6</sup></p>
+                        </div>
+
+                        <div class="col-12 col-md-12  col-lg-6 my-3 my-lg-2 cuadro cuadro-2">
+                            <p class="px-5"><b>No produce acidez de rebote</b> tras el cese del medicamento, ya que se une reversiblemente a la H+/K+ ATPasa.<sup>6</sup></p>                
+                        </div>                    
+                    </div>
+
+                    <div class="cuadro2-wrapper row  py-0 py-lg-4  my-0 my-lg-2 ">
+                        <div class="col-12 col-md-12  col-lg-6 my-3 my-lg-2 cuadro cuadro-3">
+                            <p class="px-5">Es <b>clínicamente efectivo</b> y no inferior a esomeprazol para la curación de la <b>esofagitis erosiva</b> y a lansoprazol para la curación de <b>úlceras gástricas</b>.<sup>6</sup></p>
+                                
+                            <p class="px-5"><b>Reduce la severidad y frecuencia de la acidez, dispepsia y puntajes en cuestionarios de enfermedad por reflujo</b> a las 4 y 8 semanas.<sup>6</sup></p>                
+                        </div>
+
+                        <div class="col-12 col-md-12  col-lg-6 my-3 my-lg-2 cuadro cuadro-4">
+                            <p class="px-5">Es <b>bien tolerado y sin incidencia de eventos adversos estadísticamente significativos</b> vs esomeprazol.<sup>6</sup></p>
+                                
+                            <p class="px-5">A diferencia de los IBPs, <b>no requiere activación ácida</b>, alcanza su <b>actividad antisecretora en 2 horas</b>, su biodisponibilidad no está limitada por la ingesta de alimentos y se une a bombas de protones activas e inactivas.<sup>6</sup></p>                
+                        </div>                       
+                    </div>
+                </div>
+            </div>  
+
+        </div>
+    </section>
+
+    <section class="full-container referencias p-5 d-flex justify-content-center">
+        <div class="row">
+            <div style="font-size: 8pt;">
+                Referencias:</br>
+                1. Scarpignato C, Hongo M, Wu JCY, et al. Pharmacologic treatment of GERD: Where we are now, and where are we going? Ann N Y Acad Sci. 2020;1482(1):193-212. doi:10.1111/nyas.14473</br>
+                2. Cho YK, Choi MG, Choi SC, et al. Randomised clinical trial: tegoprazan, a novel potassium-competitive acid blocker, or lansoprazole in the treatment of gastric ulcer. Aliment Pharmacol Ther. 2020;52(5):789-797. doi:10.1111/apt.15865</br>
+                3. Engevik AC, Kaji I, Goldenring JR. The Physiology of the Gastric Parietal Cell. Physiol Rev. 2020;100(2):573-602. doi:10.1152/physrev.00016.2019</br>
+                4. Chait MM, Mermelstein J, Mermelstein AC. Tegoprazan to treat gastroesophageal reflux disease. Drugs of Today. 2020;56(11):715. doi:10.1358/dot.2020.56.11.3202811</br>
+                5. Yang E, Kim S, Kim B, et al. Night‐time gastric acid suppression by tegoprazan compared to vonoprazan or esomeprazole. Br J Clin Pharmacol. 2022;88(7):3288-3296. doi:10.1111/bcp.15268</br>
+                6. Shin JM, Kim N. Pharmacokinetics and Pharmacodynamics of the Proton Pump Inhibitors. J Neurogastroenterol Motil. 2013;19(1):25-35. doi:10.5056/jnm.2013.19.1.25</br>
+                7.Herszényi L, Bakucz T, Barabás L, Tulassay Z. Pharmacological Approach to Gastric Acid Suppression: Past, Present, and Future. Digestive Diseases. 2020;38(2):104-111. doi:10.1159/000505204                 
+            </div>
+        </div>                
+    </section>
+
+
+    <footer class="pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="ms-4 text-center">
+                        Reg. San. 023M2023 SSA IV<br>
+                        Aviso de Publicidad XXXXXXXX<br>
+                        CARNOT® LABORATORIOS TODOS LOS DERECHOS RESERVADOS. NICOLÁS SAN JUAN 1046, COLONIA DEL VALLE C.P. 03100, CIUDAD DE MÉXICO, MÉXICO.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+    <!-- Para el Slider -->
+    <script src="./js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
