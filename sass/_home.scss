@@ -78,7 +78,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 
 body {
-	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-family: SourceSansPro;
 }
 
 img{
@@ -137,9 +137,12 @@ img{
 .logo-blanco{
 	text-align: right; 
 	position: absolute !important; 
-	right:100px; 
+	right:55px; 
 	top:-30px; 
 	z-index: 1000;
+	@media (min-width: 992px) {
+		right:100px; 
+	}
 }
 
 header {
@@ -158,11 +161,11 @@ header {
 	}
 
 	&.home{
-		background: url("../img/cielo1.svg") no-repeat;
+		background: url("../img/cielo2.svg") no-repeat;
 		background-color: $dark-blue;
-		background-size: contain;
+		background-size: auto;
+		background-position: top center;
 		@media (min-width: 1200px) {
-			background: url("../img/cielo2.svg") no-repeat;
 			background-color: $dark-blue;
 			background-size: contain;
 		}
@@ -202,6 +205,14 @@ header {
 
 	div {
 		z-index: 1;
+	}
+
+	button{
+		background-color: #0386D7 !important;
+		border: 3px solid #fff !important;
+		padding: 4px 0px !important;
+		font-weight: bold;
+
 	}
 
 	img{
@@ -244,18 +255,21 @@ header {
 
 	h1 {
 		font-size: 24px;
-		font-weight: bold;
+		font-family: SourceSansProBold;
+		text-align: center;
 
-		.primer {
-			color: $light-blue;
+		@media (min-width: 992px) {
+			text-align: left;
 		}
 	}
 
 	h2 {
-		font-weight: bold;
+		font-family: SourceSansProBold;
 		font-size: 18px;
+		text-align: center;
 
-		@media (min-width: 1200px) {
+		@media (min-width: 992px) {
+			text-align: left;
 			font-size: 22px;
 		}
 
@@ -294,7 +308,7 @@ header {
 	// position: absolute;
 	// object-fit: cover;
 	max-width: fit-content;
-	width:  75%;
+	width:  100%;
 	// z-index: 0;
 
 	@media (min-width: 768px) {
@@ -348,6 +362,29 @@ main {
 .post-thumbnail img {
 	width: 100%;
 	height: auto;
+	padding-bottom: 20px;
+}
+
+.posts{
+	h1{
+		text-align: center;
+		@media (min-width: 768px) {
+			text-align: left;
+		}
+	}
+	h2{
+		text-align: center;
+		@media (min-width: 768px) {
+			text-align: left;
+		}
+	}
+	p{
+		text-align: center !important;
+		@media (min-width: 768px) {
+			text-align: left !important;
+		}
+	}
+
 }
 
 article {

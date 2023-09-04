@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* Pages */ /*!
+/* Pages */
+/*!
 Theme Name: Ki-Cab
 Theme URI: http://underscores.me/
 Author: Augusto Flores
@@ -69,7 +70,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: SourceSansPro;
 }
 
 img {
@@ -124,9 +125,14 @@ img {
 .logo-blanco {
   text-align: right;
   position: absolute !important;
-  right: 100px;
+  right: 55px;
   top: -30px;
   z-index: 1000;
+}
+@media (min-width: 992px) {
+  .logo-blanco {
+    right: 100px;
+  }
 }
 
 header {
@@ -144,13 +150,13 @@ header.posts .entry-header {
   background: none;
 }
 header.home {
-  background: url("../img/cielo1.svg") no-repeat;
+  background: url("../img/cielo2.svg") no-repeat;
   background-color: #091663;
-  background-size: contain;
+  background-size: auto;
+  background-position: top center;
 }
 @media (min-width: 1200px) {
   header.home {
-    background: url("../img/cielo2.svg") no-repeat;
     background-color: #091663;
     background-size: contain;
   }
@@ -185,6 +191,12 @@ header.home .list-bullets div p {
 }
 header div {
   z-index: 1;
+}
+header button {
+  background-color: #0386D7 !important;
+  border: 3px solid #fff !important;
+  padding: 4px 0px !important;
+  font-weight: bold;
 }
 header img {
   display: block;
@@ -223,17 +235,22 @@ header .form .form-wrapper {
 }
 header h1 {
   font-size: 24px;
-  font-weight: bold;
+  font-family: SourceSansProBold;
+  text-align: center;
 }
-header h1 .primer {
-  color: #0285C6;
+@media (min-width: 992px) {
+  header h1 {
+    text-align: left;
+  }
 }
 header h2 {
-  font-weight: bold;
+  font-family: SourceSansProBold;
   font-size: 18px;
+  text-align: center;
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   header h2 {
+    text-align: left;
     font-size: 22px;
   }
 }
@@ -266,7 +283,7 @@ header .cards img {
 #hero-background {
   max-width: -moz-fit-content;
   max-width: fit-content;
-  width: 75%;
+  width: 100%;
 }
 @media (min-width: 768px) {
   #hero-background {
@@ -319,6 +336,32 @@ main .arts {
 .post-thumbnail img {
   width: 100%;
   height: auto;
+  padding-bottom: 20px;
+}
+
+.posts h1 {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .posts h1 {
+    text-align: left;
+  }
+}
+.posts h2 {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .posts h2 {
+    text-align: left;
+  }
+}
+.posts p {
+  text-align: center !important;
+}
+@media (min-width: 768px) {
+  .posts p {
+    text-align: left !important;
+  }
 }
 
 article {
@@ -444,7 +487,17 @@ footer #carnot {
     max-width: 600px !important;
   }
 }
+h3 {
+  font-family: SourceSansProBold;
+}
+
+b {
+  font-family: SourceSansProBold;
+  font-weight: bold;
+}
+
 .bold {
+  font-family: SourceSansProBold;
   font-weight: bold;
 }
 
@@ -659,6 +712,50 @@ header.interior .buttons-wrapper a {
 @media only screen and (min-width: 769px) {
   .mainCarrusel .flechasCarrusel {
     visibility: visible;
+  }
+}
+
+.intro .logo {
+  margin: 20px auto 0 auto;
+}
+@media (min-width: 768px) {
+  .intro .logo {
+    margin: 0;
+  }
+}
+.intro .iconos {
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .intro .iconos {
+    margin: inherit;
+  }
+}
+.intro h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .intro h2 {
+    text-align: left;
+    margin: inherit;
+  }
+}
+.intro p {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .intro p {
+    text-align: left;
+  }
+}
+
+.columns p {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .columns p {
+    text-align: left;
   }
 }
 

@@ -1,147 +1,187 @@
-.cuadro0 {
-    color: #fff;
-    .header {
-        border-radius: 30px 30px 0px 0px;
-        background-color: #272790;
-        padding: 20px 40px;
-    }
-    .content {
-        background-color: #1cb2c5;
-        border-radius: 0px 0px 30px 30px;
-        ol {
-            column-count: 1;
-            -webkit-column-count: 1;
-            -moz-column-count: 1;
-            column-gap: 40px;
-            list-style: none;
+
+
+    .intro{
+        .logo{
+            margin: 20px auto 0 auto;
             @media (min-width: 768px) {
-                column-count: 2;
-                -webkit-column-count: 2;
-                -moz-column-count: 2;
+                margin: 0;
             }
-            li{
-                counter-increment: item;
-                margin-bottom: 5px;
-                &::before{
-                    margin-right: -28px;
-                    content: counter(item);
-                    background: white;
-                    border-radius: 100%;
-                    color: #272790;
-                    color: rgb(37,58,160);
-                    width: 1.5em;
-                    text-align: center;
-                    display: inline-block;
-                    font-weight: bold;
-                    right: 36px;
-                    position: relative;
-                    font-size: 14pt;
+        }
+        .iconos{
+            margin: 0 auto;
+            @media (min-width: 768px) {
+                margin: inherit;
+            }
+        }
+        h2{
+            text-align: center;
+            margin: 0 auto;
+            @media (min-width: 768px) {
+                text-align: left;
+                margin: inherit;
+            }
+        }
+        p{
+            text-align: center;
+            @media (min-width: 768px) {
+                text-align: left;
+            }
+        }
+    }
+
+    .columns{
+        p{
+            text-align: center;
+            @media (min-width: 768px) {
+                text-align: left;
+            }
+        }
+    }
+
+    .cuadro0 {
+        color: #fff;
+        .header {
+            border-radius: 30px 30px 0px 0px;
+            background-color: #272790;
+            padding: 20px 40px;
+        }
+        .content {
+            background-color: #1cb2c5;
+            border-radius: 0px 0px 30px 30px;
+            ol {
+                column-count: 1;
+                -webkit-column-count: 1;
+                -moz-column-count: 1;
+                column-gap: 40px;
+                list-style: none;
+                @media (min-width: 768px) {
+                    column-count: 2;
+                    -webkit-column-count: 2;
+                    -moz-column-count: 2;
+                }
+                li{
+                    counter-increment: item;
+                    margin-bottom: 5px;
+                    &::before{
+                        margin-right: -28px;
+                        content: counter(item);
+                        background: white;
+                        border-radius: 100%;
+                        color: #272790;
+                        color: rgb(37,58,160);
+                        width: 1.5em;
+                        text-align: center;
+                        display: inline-block;
+                        font-weight: bold;
+                        right: 36px;
+                        position: relative;
+                        font-size: 14pt;
+                    }
                 }
             }
         }
     }
-}
-.cuadro1-wrapper{
-    background-image: url("");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    @media (min-width: 992px) {
-        background-image: url("../img/post-kicab/fondo-cuadro1.jpg");
-    }
-}
-.cuadro2-wrapper{
-    background-image: url("");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    @media (min-width: 992px) {
-        background-image: url("../img/post-kicab/fondo-cuadro2.jpg");
-    }
-}
-.cuadro{
-    color: #fff;
-    padding: 5%;
-    padding: 20px 14px;
-}
-.cuadro-1{
-    background: rgb(28,131,188);
-    @media (min-width: 992px) {
-        background: rgb(28,131,188);
-        background: linear-gradient(279deg, rgba(28,131,188,1) 0%, rgba(28,131,188,1) 10%, rgba(28,131,188,1) 10%, rgba(28,131,188,1) 92%, rgba(255,255,255,1) 92%, rgba(255,255,255,1) 100%);
-        background: transparent;
-    }
-}
-.cuadro-2{
-    background: rgb(37,58,160);
-    @media (min-width: 992px) {
-        background: rgb(37,58,160);
-        background: linear-gradient(279deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(37,58,160,1) 10%, rgba(37,58,160,1) 92%, rgba(28,131,188,1) 92%, rgba(28,131,188,1) 100%);
-        background: transparent;
-    }
-}
-.cuadro-3{
-    background: #11a4d4;
-    @media (min-width: 992px) {
-        background: transparent;
-    }
-}
-.cuadro-4{
-    background: #1c83bc;
-    @media (min-width: 992px) {
-        background: transparent;
-    }
-}
-
-////////////// ESTOS ESTILOS SI SE UTILIZAN //////////////
-
-
-.cuadro-list-1 {
-    color: #fff;
-    .header {
-        border-radius: 30px 30px 0px 0px;
-        background-color: $dark-blue2;
-        padding: 20px 40px;
-    }
-    .content {
-        background-color: #1cb2c5;
-        ul {
-            padding: 40px 60px;
-            list-style: none;
-        }
-        li {
-            border-bottom: 1px solid #fff;
-            padding: 18px 0;
-            img{
-                width: 30px;
-                float: left;
-            }
+    .cuadro1-wrapper{
+        background-image: url("");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        @media (min-width: 992px) {
+            background-image: url("../img/post-kicab/fondo-cuadro1.jpg");
         }
     }
-}
-.cuadro-list-2 {
-    color: #000000;
-    .header {
-        border-radius: 30px 30px 0px 0px;
-        background-color: $emerald;
-        padding: 20px 40px;
+    .cuadro2-wrapper{
+        background-image: url("");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        @media (min-width: 992px) {
+            background-image: url("../img/post-kicab/fondo-cuadro2.jpg");
+        }
+    }
+    .cuadro{
         color: #fff;
-        font-weight: bold;
+        padding: 5%;
+        padding: 20px 14px;
     }
-    .content {
-        background-color: #efefef;
-        ul {
-            padding: 0px 60px;
-            list-style: none;
-        }
-        li {
-            border-bottom: 1px solid #000;
-            padding: 18px 0;
-            &:last-child(){
-                border: 0px;
-            }
-            img{
-                width: 20px;
-                float: left;
-            }
+    .cuadro-1{
+        background: rgb(28,131,188);
+        @media (min-width: 992px) {
+            background: rgb(28,131,188);
+            background: linear-gradient(279deg, rgba(28,131,188,1) 0%, rgba(28,131,188,1) 10%, rgba(28,131,188,1) 10%, rgba(28,131,188,1) 92%, rgba(255,255,255,1) 92%, rgba(255,255,255,1) 100%);
+            background: transparent;
         }
     }
-}
+    .cuadro-2{
+        background: rgb(37,58,160);
+        @media (min-width: 992px) {
+            background: rgb(37,58,160);
+            background: linear-gradient(279deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(37,58,160,1) 10%, rgba(37,58,160,1) 92%, rgba(28,131,188,1) 92%, rgba(28,131,188,1) 100%);
+            background: transparent;
+        }
+    }
+    .cuadro-3{
+        background: #11a4d4;
+        @media (min-width: 992px) {
+            background: transparent;
+        }
+    }
+    .cuadro-4{
+        background: #1c83bc;
+        @media (min-width: 992px) {
+            background: transparent;
+        }
+    }
+
+    ////////////// ESTOS ESTILOS SI SE UTILIZAN //////////////
+
+
+    .cuadro-list-1 {
+        color: #fff;
+        .header {
+            border-radius: 30px 30px 0px 0px;
+            background-color: $dark-blue2;
+            padding: 20px 40px;
+        }
+        .content {
+            background-color: #1cb2c5;
+            ul {
+                padding: 40px 60px;
+                list-style: none;
+            }
+            li {
+                border-bottom: 1px solid #fff;
+                padding: 18px 0;
+                img{
+                    width: 30px;
+                    float: left;
+                }
+            }
+        }
+    }
+    .cuadro-list-2 {
+        color: #000000;
+        .header {
+            border-radius: 30px 30px 0px 0px;
+            background-color: $emerald;
+            padding: 20px 40px;
+            color: #fff;
+            font-weight: bold;
+        }
+        .content {
+            background-color: #efefef;
+            ul {
+                padding: 0px 60px;
+                list-style: none;
+            }
+            li {
+                border-bottom: 1px solid #000;
+                padding: 18px 0;
+                &:last-child(){
+                    border: 0px;
+                }
+                img{
+                    width: 20px;
+                    float: left;
+                }
+            }
+        }
+    }    
